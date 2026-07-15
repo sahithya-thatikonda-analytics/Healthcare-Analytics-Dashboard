@@ -228,25 +228,6 @@ The dashboard enables healthcare stakeholders to:
 
 ---
 
-# 📁 Repository Structure
-
-```text
-Healthcare-Analytics-Dashboard/
-│
-├── README.md
-├── screenshots/
-│   ├── executive-summary.png
-│   ├── pharmacy-analytics.png
-│   ├── clinical-analytics-part1.png
-│   ├── clinical-analytics-part2.png
-│   └── financial-analytics.png
-│
-├── dataset/
-│   └── dataset_description.md
-│
-└── documentation/
-    └── project_overview.pdf
-```
 ## Power BI File
 
 The PBIX file is not included in this repository because of GitHub file size limitations.
