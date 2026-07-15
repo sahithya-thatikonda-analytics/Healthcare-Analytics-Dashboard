@@ -1,6 +1,21 @@
-# 🏥 Healthcare Analytics Dashboard using Power BI
+<p align="center">
+  <img src="screenshots/banner.png" alt="Healthcare Analytics Dashboard Banner" width="100%">
+</p>
 
-An end-to-end Healthcare Analytics Dashboard developed using **Microsoft Power BI**, **PostgreSQL**, and **DAX** to transform healthcare data into meaningful insights for hospital stakeholders.
+# 🏥 Healthcare Analytics Dashboard
+
+An end-to-end Healthcare Analytics Dashboard built using **Power BI**, **PostgreSQL**, and **DAX** to transform healthcare data into actionable business insights for hospital stakeholders.
+
+---
+
+## 🚀 Project Highlights
+
+- Developed a four-page interactive Healthcare Analytics Dashboard using Power BI.
+- Connected PostgreSQL as the primary data source for healthcare analytics.
+- Built advanced DAX measures for KPIs, Top-N analysis, ranking, and time intelligence.
+- Analyzed patient demographics, diagnoses, medications, observations, and healthcare expenditure.
+- Delivered Executive, Pharmacy, Clinical, and Financial dashboards tailored to different stakeholders.
+- Designed an interactive data model supporting efficient filtering and cross-analysis.
 
 ---
 
@@ -131,20 +146,26 @@ Analyzes healthcare expenditure and financial performance.
 
 ---
 
+
 # 🏗 Data Model
 
-The dashboard follows a relational healthcare data model built using multiple interconnected tables.
+The dashboard is built on a relational healthcare data model using PostgreSQL. The model integrates patient demographics, encounters, diagnoses, medications, observations, and a calendar table to enable efficient filtering, time intelligence, and cross-functional healthcare analytics.
+
+<p align="center">
+  <img src="screenshots/data-model.png" width="90%">
+</p>
 
 ### Tables Used
 
-- Patients
-- Encounters
-- Medications
-- Conditions
-- Observations
-- Calendar (Created in Power BI)
+| Table | Purpose |
+|-------|---------|
+| Patients | Stores patient demographic information such as age, gender, race, county, and birthdate. |
+| Encounters | Contains healthcare visits including encounter class and encounter dates. |
+| Conditions | Stores patient diagnoses associated with encounters. |
+| Medications | Contains prescribed medications, medication cost, payer coverage, and patient out-of-pocket expenses. |
+| Observations | Includes vital signs and laboratory observations recorded during patient care. |
+| Calendar | Supports time intelligence, monthly trends, and year-over-year analysis in Power BI. |
 
-Relationships between these tables enable cross-filtering and interactive analytics across all dashboard pages.
 
 ---
 
@@ -263,11 +284,3 @@ Interested in:
 - Data Visualization
 
 ---
-
-# ⭐ How to Use
-
-1. Download the Power BI (.pbix) file.
-2. Open it using Microsoft Power BI Desktop.
-3. Explore the four interactive dashboard pages.
-4. Review the dataset documentation.
-5. Refer to the project overview for implementation details.
