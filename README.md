@@ -1,5 +1,5 @@
 <p align="center">
-<img src="screenshots/executive-summary.png" width="900">
+  <img src="screenshots/banner.png" width="100%">
 </p>
 
 # 🏥 Healthcare Analytics Dashboard
