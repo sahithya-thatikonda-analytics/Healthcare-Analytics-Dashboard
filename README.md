@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/banner.png" alt="Healthcare Analytics Dashboard Banner" width="100%">
+<img src="screenshots/executive-summary.png" width="900">
 </p>
 
 # 🏥 Healthcare Analytics Dashboard
@@ -264,6 +264,50 @@ An interactive Power BI Service version will be added in the future.
 - Real-time Dashboard Refresh
 - Role-Based Security (Row-Level Security)
 - Power BI Service Deployment
+
+---
+
+## 🛠 Tech Stack
+
+- Microsoft Power BI
+- PostgreSQL
+- DAX
+- Power Query
+- Data Modeling
+- GitHub
+
+---
+
+## Business Questions
+
+- Which medications contribute the highest treatment cost?
+- Which encounter types generate the largest expenditure?
+- Which diseases have the highest prevalence?
+- Which counties consume the highest healthcare budget?
+- How does medication cost change over time?
+
+---
+
+## Key Insights
+
+- Middlesex County contributed the highest healthcare expenditure.
+- COVID-19 and related respiratory conditions accounted for the highest medication costs.
+- Outpatient and ambulatory encounters generated the largest pharmacy spending.
+- Medication expenditure remained relatively stable throughout the year with periodic spikes.
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Data Modeling
+- DAX
+- Time Intelligence
+- KPI Development
+- Dashboard Design
+- Business Intelligence
+- Healthcare Analytics
+- PostgreSQL Integration
 
 ---
 
