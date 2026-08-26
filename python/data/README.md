@@ -372,6 +372,7 @@ encounters.csv
       ├──────────────► medications.csv
       │
       └──────────────► observations.csv
+```
 
 # 9. Dataset Role in the Python Analysis
 
